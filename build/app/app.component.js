@@ -1,4 +1,4 @@
-System.register(["@angular/core"], function(exports_1, context_1) {
+System.register(["@angular/core", "./badge.component"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,22 +10,29 @@ System.register(["@angular/core"], function(exports_1, context_1) {
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1;
+    var core_1, badge_component_1;
     var AppComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
+            },
+            function (badge_component_1_1) {
+                badge_component_1 = badge_component_1_1;
             }],
         execute: function() {
             AppComponent = (function () {
                 function AppComponent() {
-                    this.sometext = 'First Angular Component - Changed';
+                    this.list = [
+                        { text: 'Message', count: 5 },
+                        { text: 'Sent', count: 53 }
+                    ];
                 }
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: "my-app",
-                        template: "\n        <p>Display String : {{sometext}}</p>\n    "
+                        template: "\n    Parent Component----\n    <br>\n    <div *ngFor=\"let obj of list\"> \n        <my-badge [text]=\"obj.text\" count=\"{{obj.count}}\"></my-badge>\n    </div>\n    \n       \n    ",
+                        directives: [badge_component_1.BadgeComponent]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
