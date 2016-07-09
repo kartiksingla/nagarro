@@ -10,5 +10,5 @@ import {Component} from "@angular/core";
     `
 })
 export class AppComponent{
-    sometext: string  = 'First Angular Component - Changed'
+    let sometext: string  = 'First Angular Component - Changed'
 }
