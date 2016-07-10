@@ -32,7 +32,6 @@ export class CountdownTimerComponent implements OnInit, OnDestroy {
 }
 
 
-
 @Component({
     selector: 'countdown-parent-lv',
     template: `
@@ -48,7 +47,7 @@ export class CountdownLocalVarParentComponent { }
 
 
 
-@Component({
+*@Component({
     selector: 'countdown-parent-vc',
     template: `
   <h3>Countdown to Liftoff (via ViewChild)</h3>
