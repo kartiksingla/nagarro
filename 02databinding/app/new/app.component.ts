@@ -32,7 +32,7 @@ class MyComponent {
     @Input('abc') abc;
 
     @Input('test')
-    @InputConverter(BooleanConverter)
+    // @InputConverter(BooleanConverter)
     test:boolean;
     indiastates : Array<string> = ['Delhi', 'Mumbai', 'Chennai'];
     usstates : Array<string> = ['MN', 'IL', 'CA'];
