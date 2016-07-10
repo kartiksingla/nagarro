@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b64d0162-2e2b-43b1-ad74-a3a6d92f1bfa" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02databinding/app/app.component.ts" afterPath="$PROJECT_DIR$/02databinding/app/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02databinding/app/child.component.ts" afterPath="$PROJECT_DIR$/02databinding/app/child.component.ts" />
-    </list>
+    <list default="true" id="b64d0162-2e2b-43b1-ad74-a3a6d92f1bfa" name="Default" comment="" />
     <ignored path="FirstAngular2.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,11 +65,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.component1.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02databinding/app/new/app.component1.ts">
+      <file leaf-file-name="app.component2.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02databinding/app/new/app.component2.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component1.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02databinding/app/new/app.component1.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
               <folding>
                 <marker date="1468132382248" expanded="true" signature="359:460" ph="..." />
                 <marker date="1468132382248" expanded="true" signature="2158:2261" ph="..." />
@@ -106,8 +111,8 @@
       <file leaf-file-name="child.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02databinding/app/child.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="238">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding>
                 <marker date="1468129106208" expanded="true" signature="302:400" ph="..." />
               </folding>
@@ -123,19 +128,6 @@
               <folding>
                 <element signature="e#45#85#0" expanded="true" />
                 <marker date="1468065010576" expanded="true" signature="288:370" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="badge.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01basic/app/badge.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding>
-                <element signature="e#45#89#0" expanded="false" />
-                <marker date="1468065176224" expanded="true" signature="299:375" ph="..." />
               </folding>
             </state>
           </provider>
@@ -371,16 +363,16 @@
       <option name="presentableId" value="Default" />
       <updated>1468048154861</updated>
       <workItem from="1468048156028" duration="11340000" />
-      <workItem from="1468124835055" duration="6231000" />
+      <workItem from="1468124835055" duration="6580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17571000" />
+    <option name="totallyTimeSpent" value="17920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15327695" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -388,7 +380,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2704826" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2704826" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -645,10 +637,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/02databinding/app/new/app.component1.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <marker date="1468132382248" expanded="true" signature="359:460" ph="..." />
+            <marker date="1468132382248" expanded="true" signature="2158:2261" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/02databinding/app/child.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="238">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding>
             <marker date="1468129106208" expanded="true" signature="302:400" ph="..." />
           </folding>
@@ -667,14 +670,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02databinding/app/new/app.component1.ts">
+    <entry file="file://$PROJECT_DIR$/02databinding/app/new/app.component2.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1468132382248" expanded="true" signature="359:460" ph="..." />
-            <marker date="1468132382248" expanded="true" signature="2158:2261" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
