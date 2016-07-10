@@ -3,6 +3,7 @@
  */
 import {Component} from "@angular/core";
 import {BadgeComponent} from "./badge.component";
+import {Badge} from "./Badge";
 
 @Component({
     selector: "my-app",
@@ -12,14 +13,18 @@ import {BadgeComponent} from "./badge.component";
     <div *ngFor="let obj of list"> 
         <my-badge [text]="obj.text" count="{{obj.count}}"></my-badge>
     </div>
-    
-       
     `,
     directives: [BadgeComponent]
 })
 export class AppComponent{
-    list: any = [
-        {text: 'Message', count: 5},
-        {text: 'Sent', count: 53}
+
+    badge1:Badge  = new Badge('Message', 34);
+    badge2:Badge  = new Badge('Sent', 4);
+    list: Array<Badge> = [
+        this.badge1,this.badge2
     ]
+
+    ngOnInit(){
+        this.list.push(this.badge1)
+    }
 }

@@ -10,7 +10,7 @@ import {Component, Input} from "@angular/core";
     selector: "my-badge",
     template: `
     Child component --- 
-        <button class="btn btn-primary" type="button">
+        <button class="btn btn-primary" type="button" (click)="incrementCount()">
             {{text}} <span class="badge">{{count}}</span>
         </button>
     `
@@ -19,4 +19,8 @@ export class BadgeComponent{
     sometext: string  = 'First Angular Component - Changed'
     @Input('text') text: string = 'Sent'
     @Input('count') count: number = 23
+
+     incrementCount(): void {
+        this.count++;
+    }
 }

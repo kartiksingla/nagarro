@@ -8,7 +8,7 @@ const tsProject = tsc.createProject("tsconfig.json");
 const tslint = require('gulp-tslint');
 
 
-let appDev = '01basic';
+let appDev = '02databinding';
 
 /**
  * Remove build directory.
